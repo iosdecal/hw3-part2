@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		417986C31E6631020050E1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417986C21E6631020050E1DF /* Assets.xcassets */; };
 		417986C51E6632C40050E1DF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C41E6632C40050E1DF /* TabBarController.swift */; };
-		417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */; };
+		417986C91E664AE40050E1DF /* imageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986C81E664AE40050E1DF /* imageCollectionViewCell.swift */; };
 		417986CB1E664CB60050E1DF /* ImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417986CA1E664CB60050E1DF /* ImageFlowLayout.swift */; };
 		4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2CA1E6509E8009916E4 /* AppDelegate.swift */; };
 		4196F2D01E6509E8009916E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4196F2CE1E6509E8009916E4 /* Main.storyboard */; };
@@ -28,15 +28,15 @@
 
 /* Begin PBXFileReference section */
 		417986C21E6631020050E1DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		417986C41E6632C40050E1DF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = "Snapchat Camera/TabBarController.swift"; sourceTree = SOURCE_ROOT; };
-		417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imageCollectionVieCell.swift; path = "Snapchat Camera/imageCollectionVieCell.swift"; sourceTree = SOURCE_ROOT; };
+		417986C41E6632C40050E1DF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = SnapchatClone/TabBarController.swift; sourceTree = SOURCE_ROOT; };
+		417986C81E664AE40050E1DF /* imageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imageCollectionViewCell.swift; path = SnapchatClone/imageCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		417986CA1E664CB60050E1DF /* ImageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFlowLayout.swift; sourceTree = "<group>"; };
 		4196F2C71E6509E8009916E4 /* snapChatProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapChatProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4196F2CA1E6509E8009916E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4196F2CF1E6509E8009916E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4196F2D61E6509E8009916E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
-		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = "Snapchat Camera/ImagePickerController.swift"; sourceTree = SOURCE_ROOT; };
+		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = SnapchatClone/ImagePickerController.swift; sourceTree = SOURCE_ROOT; };
 		6C53C7651E723D77004D15B6 /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
 		6C53C7671E723D87004D15B6 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
 		6C71409A1E70C3D100D38EAD /* ChooseThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseThreadViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				4196F2E21E6514EE009916E4 /* ImagePickerController.swift */,
-				417986C81E664AE40050E1DF /* imageCollectionVieCell.swift */,
+				417986C81E664AE40050E1DF /* imageCollectionViewCell.swift */,
 			);
 			name = "Image Picker";
 			sourceTree = "<group>";
@@ -197,7 +197,6 @@
 				TargetAttributes = {
 					4196F2C61E6509E8009916E4 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = HM36DDY9LB;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -243,7 +242,7 @@
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
 				6CB38BE31E748E31000E3E31 /* Post.swift in Sources */,
-				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
+				417986C91E664AE40050E1DF /* imageCollectionViewCell.swift in Sources */,
 				9424724D1F910B3A007257E7 /* LogInViewController.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				9424724F1F910B4B007257E7 /* SignUpViewController.swift in Sources */,
@@ -379,12 +378,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HM36DDY9LB;
-				INFOPLIST_FILE = "$(SRCROOT)/Snapchat Camera/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SnapchatClone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -393,12 +392,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HM36DDY9LB;
-				INFOPLIST_FILE = "$(SRCROOT)/Snapchat Camera/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SnapchatClone/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.SnapchatClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
