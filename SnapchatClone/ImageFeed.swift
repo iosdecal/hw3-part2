@@ -59,6 +59,18 @@ func clearThreads() {
  
  */
 func addPost(postImage: UIImage, thread: String, username: String) {
+    // Uncomment the lines beneath this one if you've already connected Firebase:
+//    let dbRef = Database.database().reference()
+//    let data = UIImageJPEGRepresentation(postImage, 1.0)
+//    let path = "Images/\(UUID().uuidString)"
+//
+//    let dateFormatter = DateFormatter()
+//    dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss.A"
+//    let dateString = dateFormatter.string(from: Date())
+//    let postDict: [String:AnyObject] = ["imagePath": path as AnyObject,
+//                                        "username": username as AnyObject,
+//                                        "thread": thread as AnyObject,
+//                                        "date": dateString as AnyObject]
     // YOUR CODE HERE
 }
 
@@ -95,7 +107,7 @@ func store(data: Data?, toPath path: String) {
  - Finally, call completion(postArray) to return all of the posts.
  - If any part of the function fails at any point (e.g. snapshot does not exist or snapshot.value is nil), call completion(nil).
  
- Remember to use constants defined in Constants.swift to refer to the correct path!
+ Remember to use constants defined in Strings.swift to refer to the correct path!
  */
 func getPosts(user: CurrentUser, completion: @escaping ([Post]?) -> Void) {
     
