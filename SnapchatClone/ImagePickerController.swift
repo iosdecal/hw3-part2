@@ -1,6 +1,6 @@
 //
 //  imagePickerController.swift
-//  snapChatProject
+//  SnapchatProject
 //
 //  Created by Akilesh Bapu on 2/27/17.
 //  Copyright © 2017 org.iosdecal. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  PostsTableViewCell.swift
-//  snapChatProject
+//  SnapchatProject
 //
 //  Created by Paige Plander on 3/9/17.
 //  Copyright © 2017 org.iosdecal. All rights reserved.

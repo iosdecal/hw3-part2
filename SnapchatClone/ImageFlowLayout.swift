@@ -1,6 +1,6 @@
 //
 //  imageFlowLayout.swift
-//  snapChatProject
+//  SnapchatProject
 //
 //  Created by Akilesh Bapu on 2/28/17.
 //  Copyright © 2017 org.iosdecal. All rights reserved.
