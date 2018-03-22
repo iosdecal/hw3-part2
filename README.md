@@ -2,7 +2,7 @@
 # part 2: Firebase #
 
 ## Due Date ##
-Monday, 11/6 at 11:59pm
+Friday, 4/7 at 11:59pm
 
 ## Overview ##
 In this homework, you will be connecting your snapchat project to the Firebase Realtime Database. You will begin by creating a Firebase account and downloading CocoaPods, if you haven't done so already. Then you will connect your app to your very own customized Firebase console. You will then implement the login and signup pages for your users. After that, you will enable your app to store and retrieve data from your Firebase console. You might find reviewing the lecture on Firebase to be quite useful for this assignment.
@@ -154,7 +154,7 @@ See how much easier that was with a little help? Again, you're welcome. Now, for
 Congratulations!! You've finally connected your app to your very own customized database. Wasn't that fun? This concludes this week's homework. Later in the class, you'll be replacing the static images with an embed camera, and instead pull from/post to a shared database so you can send snaps to fellow classmates.
 
 ## Submission
-Submit to "hw4: Snapchat clone part 2" https://gradescope.com/courses/9817. We'll check that posts persist to your app between app sessions.
+Submit to "hw4: Snapchat clone part 2" on Gradescope. We'll check that posts persist to your app between app sessions.
 
 
 
