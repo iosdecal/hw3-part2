@@ -1,5 +1,5 @@
 # hw3: Snapchat Clone #
-# part 2 (LAB): Firebase #
+# part 2: Firebase #
 
 ## Overview ##
 In this homework, you will be connecting your snapchat project to the Firebase Realtime Database. You will begin by creating a Firebase account and downloading CocoaPods, if you haven't done so already. Then you will connect your app to your very own customized Firebase console. You will then implement the login and signup pages for your users. After that, you will enable your app to store and retrieve data from your Firebase console. You might find reviewing the lecture on Firebase to be quite useful for this assignment.
@@ -110,7 +110,7 @@ We can now authenticate users successfully, but we don't have any since we can't
             }
         }
 
-## Part 3 (HW - Due Wednesday 10/31): Storing Posts ##
+## Part 3: Storing Posts ##
 Hooray!! We now have users signing up and logging into our app. Christmas came early this year. However, they can't store any of their posts to our database yet. Not for long. Go to your Firebase console and click on the 'Storage' option from the menu on your left. Click on 'GET STARTED'. This should get you ready to store your files. All the files that you post to Firebase will be stored in here. Now let us set up the database. Remember from lecture that the Firebase database returns all your data as a json file. You can get the data by casting it in a dictionary and getting the information you want. When you are done setting up the database, it will look something like this:
 
 ![](/README-images/database.png)
