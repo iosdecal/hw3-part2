@@ -1,9 +1,6 @@
 # hw3: Snapchat Clone #
 # part 2 (LAB): Firebase #
 
-## Due Date ##
-Saturday, 4/7 at 11:59pm
-
 ## Overview ##
 In this homework, you will be connecting your snapchat project to the Firebase Realtime Database. You will begin by creating a Firebase account and downloading CocoaPods, if you haven't done so already. Then you will connect your app to your very own customized Firebase console. You will then implement the login and signup pages for your users. After that, you will enable your app to store and retrieve data from your Firebase console. You might find reviewing the lecture on Firebase to be quite useful for this assignment.
 
